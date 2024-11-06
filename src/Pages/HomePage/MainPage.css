@@ -1,0 +1,23 @@
+.MainPage{
+    margin: 0 auto;
+  }
+
+.MainPage .HeaderWrapper {
+  margin-bottom: 150px;
+}
+.MainPage .DesignLine {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.DesignLineTop {
+    margin-bottom: 70px;
+}
+
+.MainPageGrid {
+    margin-bottom: 150px;
+}
+
+.NewsBlock {
+  margin-top: 100px;
+}

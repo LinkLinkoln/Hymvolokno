@@ -1,0 +1,87 @@
+/* Стили для основного контейнера header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    background-color: #fff;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 1%;
+  }
+  
+  .logo-image {
+    width: 70%;
+    height: auto;
+  }
+  
+  .header-text h1 {
+    margin: 0;
+    font-size: 35px;
+    color: #2b5fc7;
+  }
+  
+  .header-text p {
+    margin: 0;
+    font-size: 20px;
+    text-align: start;
+    color: #777;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+    height: 80%;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    align-items: center;
+  }
+
+  .nav-item.active {
+    display: flex;             
+    align-items: center;       
+    justify-content: center; 
+    background-color: #395CA3;
+    padding: 0 10px;
+    color: #fff;
+    height: 100%;
+  }
+
+
+  .nav-item span {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  
+  .nav-icons {
+    display: flex;
+    gap: 15px;
+
+  }
+
+  .icon {
+    color: #333;
+  }
+  .authorized-image{
+    width: 35px;
+  }
+
+  @media (max-width: 930px)
+  {
+    .header-text h1 
+    {
+      display: none;
+    }
+    .header-text p
+    {
+      display: none;
+    }
+  }
