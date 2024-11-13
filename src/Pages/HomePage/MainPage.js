@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import MainPageGrid from "./Components/MainPageGrid";
 import DesignLine from "./Components/DesignLine";
 import NewsBlock from "./Components/NewsBlock";
+import Footer from "./Components/Footer";
 
 
 
@@ -17,7 +18,10 @@ function MainPage() {
         <div className="MainPageGrid">
         <MainPageGrid/>
         </div>
-        <NewsBlock className="NewsBlock"/>
+        <div className="NewsBlock">
+        <NewsBlock/>
+        </div>
+        <Footer/>
       </div>
     );
   }
